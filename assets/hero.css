@@ -1,0 +1,98 @@
+.hero_Content {
+  padding: 16px;
+  flex-grow: 1;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .hero_Content {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)), url("../Midia/Hero.jpg");
+    background-size: cover;
+    justify-content: center;
+  }
+}
+
+.hero_Imagem {
+  flex-basis: 40%;
+  flex-shrink: 0;
+  height: 100vh;
+  background-image: url("../Midia/Hero.jpg");
+  background-size: cover;
+}
+
+.hero_Logo {
+  display: block;
+  align-self: flex-start;
+  width: 80px;
+  height: 80px;
+}
+
+.hero_Experimente {
+  font-family: "Audrey_Regular";
+  font-size: clamp(30px, 5vw, 60px);
+  color: #4f4d4d;
+}
+
+.hero_Conheça {
+  font-family: "Muli_Regular";
+  font-size: clamp(20px, 3vw, 30px);
+  color: #4f4d4d;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero_Conheça {
+    max-width: 300px;
+  }
+}
+
+.hero_Fale {
+  margin: 32px 0;
+  height: 48px;
+  width: 200px;
+  background-color: #b8b59a;
+  font-family: "Muli_Regular";
+  font-size: 24px;
+  color: #4f4d4d;
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+  transition: 200ms ease;
+}
+
+.hero_Fale:hover {
+  background-color: #4f4d4d;
+  color: #f9f5f0;
+}
+
+@media (max-width: 768px) {
+  .hero_Fale {
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.hero_Saiba {
+  font-family: "Muli_Regular";
+  font-size: clamp(18px, 2vw, 22px);
+  color: #4f4d4d;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #4f4d4d;
+}
+
+.hero_Saiba:hover {
+  padding-bottom: 0;
+  border-bottom-width: 2px;
+}
+
+.hero_Fique {
+  margin-bottom: 32px;
+  font-family: "Audrey_Regular";
+  font-size: clamp(16px, 2vw, 20px);
+  color: #4f4d4d;
+  text-align: center;
+}

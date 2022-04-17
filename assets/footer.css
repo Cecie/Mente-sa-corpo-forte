@@ -1,0 +1,58 @@
+.footer_Container {
+  justify-content: space-evenly;
+  padding: 32px 24px;
+}
+
+.footer_Logo {
+  display: block;
+  width: 136px;
+  height: 136px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .footer_Content {
+    margin-top: 32px;
+  }
+
+  .footer_Logo {
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
+
+.footer_Fique {
+  font-family: "Audrey_Regular";
+  font-size: 28px;
+  color: #f9f5f0;
+  text-align: center;
+}
+
+.footer_Fale {
+  font-family: "Muli_Regular";
+  font-size: 28px;
+  color: #f9f5f0;
+}
+
+.footer_Icone {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.footer_Texto {
+  font-family: "Muli_Regular";
+  font-size: 18px;
+  color: #f9f5f0;
+  margin: 8px 0;
+  word-break: break-all;
+}
+
+.footer_Aguias {
+  font-family: "Muli_Regular";
+  font-size: 12px;
+  color: #f9f5f0;
+  text-align: center;
+  padding: 16px 24px;
+}

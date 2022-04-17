@@ -1,0 +1,83 @@
+html {
+  scroll-behavior:smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-left: 16px;
+}
+
+li {
+  margin-top: 8px;
+}
+
+@font-face {
+  font-family: "Audrey_Regular";
+  src: url("../Midia/Audrey_Regular.woff2") format("woff2"),
+    url("../Midia/Audrey_Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Muli_Regular";
+  src: url("../Midia/Muli_Regular.woff2") format("woff2"),
+    url("../Midia/Muli_Regular.woff") format("woff");
+}
+
+.dark {
+  background-color: #4f4d4d;
+}
+
+.light {
+  background-color: #ebe7de;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.birolinho {
+  width: 84px;
+  height: 4px;
+  margin: 4px 0 16px;
+  background-color: #b8b59a;
+}
+
+.row, .desk-row {
+  display: flex;
+}
+
+.col, .desk-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .desk-row {
+    flex-direction: column !important;
+  }
+
+  .desk-col {
+    flex-direction: row !important;
+  }
+
+  .desk-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .no-desk {
+    display: none !important;
+  }
+}
