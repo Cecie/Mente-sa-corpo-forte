@@ -51,6 +51,7 @@
   font-size: clamp(28px, 3vw, 36px);
   color: #f9f5f0;
   text-transform: uppercase;
+  margin: 8px 0;
 }
 
 .bio_Descricao {
