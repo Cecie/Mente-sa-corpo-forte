@@ -92,7 +92,7 @@
 .hero_Fique {
   margin-bottom: 32px;
   font-family: "Audrey_Regular";
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: 24px;
   color: #4f4d4d;
   text-align: center;
 }
