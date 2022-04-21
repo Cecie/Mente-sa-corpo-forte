@@ -30,7 +30,7 @@
 
 .hero_Experimente {
   font-family: "Audrey_Regular";
-  font-size: clamp(30px, 5vw, 60px);
+  font-size: clamp(30px, 5vw, 50px);
   color: #4f4d4d;
 }
 
@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
   .hero_Conheça {
-    max-width: 300px;
+    max-width: 240px;
   }
 }
 
